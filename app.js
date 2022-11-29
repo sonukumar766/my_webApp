@@ -90,13 +90,13 @@ function fetchUser(){
                         <div class="repo_name">my_webApp</div>
                             <div class="repo_details_">
                                 <div class="info_ star">
-                                    <i class="fa fa-star-o"></i>10
+                                    <i class="fa fa-star-o"></i>0
                                 </div>
                                 <div class="info_ fork">
-                                    <p><i class="fa fa-code-fork"></i>30</p>
+                                    <p><i class="fa fa-code-fork"></i>0</p>
                                 </div>
                                 <div class="info_ size">
-                                    <p><i class="fa fa-file"></i>3000kb</p>
+                                    <p><i class="fa fa-file"></i>0kb</p>
                                 </div>
                         </div>
                 </div>
@@ -105,9 +105,9 @@ function fetchUser(){
                 
                 `
                 user_img.innerHTML = `<img src="images\GitHub-Mark-120px-plus.png">`;
-                userName.innerHTML = `Sonu Kumar`;
-                followers_.innerHTML = "500";
-                follow_.innerHTML = "50";
+                userName.innerHTML = `user name`;
+                followers_.innerHTML = "0";
+                follow_.innerHTML = "0";
 
             }else{
 
